@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // NOTE: Update this to include the paths to all files that contain Nativewind classes.
   content: ['./app/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
   presets: [require('nativewind/preset')],
   theme: {
@@ -21,7 +20,7 @@ module.exports = {
         'rubik-semibold': ['Rubik-SemiBold'],
         'rubik-semibold-italic': ['Rubik-SemiBoldItalic'],
         'space-mono': ['SpaceMono-Regular'], // For SpaceMono if you use it
-        sans: ['Rubik-Regular', 'system-ui', 'sans-serif'], // Add other fallbacks if desired
+        rubik: ['Rubik-Regular', 'system-ui', 'sans-serif'], // Add other fallbacks if desired
       },
       colors: {
         primary: {

@@ -4,7 +4,7 @@ import { SplashScreen, Stack } from 'expo-router';
 import { useEffect } from 'react';
 
 export default function RootLayout() {
-  SplashScreen.preventAutoHideAsync();
+  // SplashScreen.preventAutoHideAsync();
 
   const [fontsLoaded, fontError] = useFonts({
     'Rubik-Regular': require('@/assets/fonts/Rubik-Regular.ttf'),
@@ -34,5 +34,5 @@ export default function RootLayout() {
 
   if (!fontsLoaded) return null;
 
-  return <Stack />;
+  return <Stack screenOptions={{ headerShown: false }} />;
 }

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "restate-mobile-app",
-    "slug": "restate-mobile-app",
+    "name": "restate",
+    "slug": "restate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,8 +15,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
       "bundler": "metro",
